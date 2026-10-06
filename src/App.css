@@ -1,0 +1,136 @@
+.Header {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: #0F172A;
+  margin-top: 5em;
+  margin-bottom: 1rem;
+}
+
+.App {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.Calculator {
+  width: 500px;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: #384655;
+  min-height: 100px;  
+}
+
+.Display {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 63px;
+  font-size: 2em;
+  padding: 5px;
+  text-align: right;
+  background: #ECFDF5; 
+  margin: 20px 20px 50px 20px;
+
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 500;
+  color: #1E152A;
+}
+
+.Keypad {
+  display: grid;
+  gap: 2px;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 20px 20px 20px 20px;
+}
+
+.Button {
+  border-radius: 5px;
+  justify-content: center;
+  border: 1px solid black;
+  font-size: 2em;
+  background-color: #EAEAEA;
+  margin: 5px 5px 5px 5px;
+
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 500;
+  color: #1E152A;
+}
+
+.SlashButton {
+  border-radius: 5px;
+  justify-content: center;
+  border: 1px solid black;
+  font-size: 2em;
+  background-color: #EDE9FE;
+  margin: 5px 5px 5px 5px;
+
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 500;
+  color: #1E152A;
+}
+
+.AsteriskButton {
+  border-radius: 5px;
+  justify-content: center;
+  border: 1px solid black;
+  font-size: 2em;
+  background-color: #EDE9FE;
+  margin: 5px 5px 5px 5px;
+
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 500;
+  color: #1E152A;
+}
+
+.MinusButton {
+  border-radius: 5px;
+  justify-content: center;
+  border: 1px solid black;
+  font-size: 2em;
+  background-color: #EDE9FE;
+  margin: 5px 5px 5px 5px;
+
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 500;
+  color: #1E152A;
+}
+
+.PlusButton {
+  border-radius: 5px;
+  justify-content: center;
+  border: 1px solid black;
+  font-size: 2em;
+  background-color: #EDE9FE;
+  margin: 5px 5px 5px 5px;
+
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 500;
+  color: #1E152A;
+}
+
+.EqualButton {
+  border-radius: 5px;
+  justify-content: center;
+  border: 1px solid black;
+  font-size: 2em;
+  background-color: #ACD1AF;
+  margin: 5px 5px 5px 5px;
+
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 500;
+  color: #1E152A;
+}
+
+.ClrButton{
+  border-radius: 5px;
+  justify-content: center;
+  border: 1px solid black;
+  font-size: 2em;
+  background-color: lightsalmon;
+  margin: 5px 5px 5px 5px;
+
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 500;
+  color: #1E152A;
+}
