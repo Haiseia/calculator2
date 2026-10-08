@@ -45,7 +45,7 @@ function App() {
           <CalcButton buttonLabel={2} onClick={buttonClickHandler}/>
           <CalcButton buttonLabel={3} onClick={buttonClickHandler}/>
           <CalcButton buttonLabel={'-'} buttonClassName = 'MinusButton' onClick={buttonClickHandler}/>
-          <CalcButton buttonLabel={'CLR'} buttonClassName = 'ClrButton' onClick={buttonClickHandler}/>
+          <CalcButton buttonLabel={'C'} buttonClassName = 'CButton' onClick={buttonClickHandler}/>
           <CalcButton buttonLabel={0} onClick={buttonClickHandler}/>
           <CalcButton buttonLabel={'='} buttonClassName = 'EqualButton' onClick={buttonClickHandler}/>
           <CalcButton buttonLabel={'+'} buttonClassName = 'PlusButton' onClick={buttonClickHandler}/>
