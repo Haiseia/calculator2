@@ -16,14 +16,14 @@
 .Calculator {
   width: 500px;
   margin: auto;
-  border: 1px solid black;
+  border: 5px solid black;
   border-radius: 10px;
-  background: #384655;
+  background-color: #384655;
   min-height: 100px;  
 }
 
 .Display {
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 5px;
   height: 63px;
   font-size: 2em;
@@ -38,8 +38,11 @@
 }
 
 .Keypad {
+  background-color: #fafafc;
+  border: 2px solid #fafafc;
+  border-radius: 5px;
   display: grid;
-  gap: 2px;
+  gap: 5px;
   grid-template-columns: repeat(4, 1fr);
   margin: 20px 20px 20px 20px;
 }
@@ -47,7 +50,7 @@
 .Button {
   border-radius: 5px;
   justify-content: center;
-  border: 1px solid black;
+  border: 2px solid black;
   font-size: 2em;
   background-color: #EAEAEA;
   margin: 5px 5px 5px 5px;
@@ -60,7 +63,7 @@
 .SlashButton {
   border-radius: 5px;
   justify-content: center;
-  border: 1px solid black;
+  border: 2px solid black;
   font-size: 2em;
   background-color: #EDE9FE;
   margin: 5px 5px 5px 5px;
@@ -73,7 +76,7 @@
 .AsteriskButton {
   border-radius: 5px;
   justify-content: center;
-  border: 1px solid black;
+  border: 2px solid black;
   font-size: 2em;
   background-color: #EDE9FE;
   margin: 5px 5px 5px 5px;
@@ -86,7 +89,7 @@
 .MinusButton {
   border-radius: 5px;
   justify-content: center;
-  border: 1px solid black;
+  border: 2px solid black;
   font-size: 2em;
   background-color: #EDE9FE;
   margin: 5px 5px 5px 5px;
@@ -99,7 +102,7 @@
 .PlusButton {
   border-radius: 5px;
   justify-content: center;
-  border: 1px solid black;
+  border: 2px solid black;
   font-size: 2em;
   background-color: #EDE9FE;
   margin: 5px 5px 5px 5px;
@@ -112,7 +115,7 @@
 .EqualButton {
   border-radius: 5px;
   justify-content: center;
-  border: 1px solid black;
+  border: 2px solid black;
   font-size: 2em;
   background-color: #ACD1AF;
   margin: 5px 5px 5px 5px;
@@ -125,10 +128,24 @@
 .CButton{
   border-radius: 5px;
   justify-content: center;
-  border: 1px solid black;
+  border: 2px solid black;
   font-size: 2em;
   background-color: lightsalmon;
   margin: 5px 5px 5px 5px;
+
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 500;
+  color: #1E152A;
+}
+
+.NameButton {
+  border-radius: 5px;
+  justify-content: center;
+  border: 2px solid black;
+  font-size: 2em;
+  background-color: #fef1d8;
+  margin: 5px 5px 5px 5px;
+  grid-column: span 4;
 
   font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 500;
