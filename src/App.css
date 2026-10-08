@@ -60,17 +60,33 @@
   color: #1E152A;
 }
 
+.Button:hover {
+  background-color: #C3E0EA;
+}
+
+.Button:active {
+  background-color: #6FC0DB;
+}
+
 .SlashButton {
   border-radius: 5px;
   justify-content: center;
   border: 2px solid black;
   font-size: 2em;
-  background-color: #EDE9FE;
+  background-color: #D9D1FD;
   margin: 5px 5px 5px 5px;
 
   font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 500;
   color: #1E152A;
+}
+
+.SlashButton:hover {
+  background-color: #EDE9FE;
+}
+
+.SlashButton:active {
+  background-color: #B1A0FB;
 }
 
 .AsteriskButton {
@@ -78,12 +94,20 @@
   justify-content: center;
   border: 2px solid black;
   font-size: 2em;
-  background-color: #EDE9FE;
+  background-color: #D9D1FD;
   margin: 5px 5px 5px 5px;
 
   font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 500;
   color: #1E152A;
+}
+
+.AsteriskButton:hover {
+  background-color: #EDE9FE;
+}
+
+.AsteriskButton:active {
+  background-color: #B1A0FB;
 }
 
 .MinusButton {
@@ -91,12 +115,20 @@
   justify-content: center;
   border: 2px solid black;
   font-size: 2em;
-  background-color: #EDE9FE;
+  background-color: #D9D1FD;
   margin: 5px 5px 5px 5px;
 
   font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 500;
   color: #1E152A;
+}
+
+.MinusButton:hover {
+  background-color: #EDE9FE;
+}
+
+.MinusButton:active {
+  background-color: #B1A0FB;
 }
 
 .PlusButton {
@@ -104,7 +136,7 @@
   justify-content: center;
   border: 2px solid black;
   font-size: 2em;
-  background-color: #EDE9FE;
+  background-color: #D9D1FD;
   margin: 5px 5px 5px 5px;
 
   font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -112,17 +144,33 @@
   color: #1E152A;
 }
 
+.PlusButton:hover {
+  background-color: #EDE9FE;
+}
+
+.PlusButton:active {
+  background-color: #B1A0FB;
+}
+
 .EqualButton {
   border-radius: 5px;
   justify-content: center;
   border: 2px solid black;
   font-size: 2em;
-  background-color: #ACD1AF;
+  background-color: #9CC89F;
   margin: 5px 5px 5px 5px;
 
   font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 500;
   color: #1E152A;
+}
+
+.EqualButton:hover {
+  background-color: #ACD1AF;
+}
+
+.EqualButton:active {
+  background-color: #7BB680;
 }
 
 .CButton{
@@ -138,16 +186,33 @@
   color: #1E152A;
 }
 
+.CButton:hover {
+  background-color: #FFB294;
+}
+
+.CButton:active {
+  background-color: #FF692E;
+}
+
 .NameButton {
   border-radius: 5px;
   justify-content: center;
   border: 2px solid black;
   font-size: 2em;
-  background-color: #fef1d8;
-  margin: 5px 5px 5px 5px;
+  background-color: #FDE8BF;
+  margin: 25px 25px 5px 25px;
   grid-column: span 4;
 
   font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 500;
   color: #1E152A;
+}
+
+.NameButton:hover {
+  background-color: #fef1d8;
+}
+
+
+.NameButton:active {
+  background-color: #FCD68D;
 }
